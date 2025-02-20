@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+body {
+    background-color: white;
+    color: black;
+    line-height: 2.0;
+}
+
+header {
+    background-color: #fff7c8;
+    position: absolute;
+    margin-bottom: 10px;
+}
+
+.topheader {
+    background-color: #ffdd00;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+}
+
+.topheader h1 {
+    font-family: "Krona One", serif;
+    font-weight: bolder;
+}
+
+.topheader p {
+    font-weight: bold;
+}
+
+.subheader {
+    display: flex;
+    gap: 20px;
+    color: #c30010;
+    text-decoration: none;
+    background-color: #ffed00;
+    width: 100%;
+    height: 40px;
+    border-radius: 0px 15px, 15px 0px;
+}
+
+.banner-img {
+    width: 100%;
+    max-height: 80px;
+    z-index: 1;  
+}
+
+.banner-txt {
+    z-index: 100;
+    text-align: center;
+    position: relative;
+}
+
+.famosos {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.titulo {
+    font-family: "Krona One", serif;
+    font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 5px;
+}
+
+.card {
+    background-color: #fff57c;
+    border-radius: 20px;
+    border: 2px solid #f94449;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 480px;
+}
+
+.card h1 {
+    font-family: "Krona One";
+    font-size: large;
+    font-weight: bolder;
+}
+
+.pedido {
+    background-color: #f01e2c;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+
+footer {
+    background-color: #ffed00;
+    font-weight: bolder;
+    font-size: medium;
+    text-align: center;
+}

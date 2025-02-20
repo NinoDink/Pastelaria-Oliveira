@@ -1,0 +1,25 @@
+body {
+    background-color: #fff7c8;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: "Krona One", serif;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cliente {
+    background-color: #fff8a7;
+    border: 2px solid #c30010;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+}
+
